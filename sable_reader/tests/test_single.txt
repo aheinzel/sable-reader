@@ -1,0 +1,411 @@
+
+Query: sp|Q01113|IL9R_HUMAN Interleukin-9 receptor OS=Homo sapiens OX=9606 GN=IL9R PE=2 SV=3
+SECTION_SS
+Secondary structure prediction
+
+Output format is the following:
+1st line -> query sequence
+2nd line -> predicted secondary structure (H -> helix, E -> beta strand, C -> coil)
+3rd line -> confidence level (scale from 3 to 9, corresponding to p=0.3 or low confidence and p=0.9 or high confidence, respectively)
+
+>   1                                                              60
+     MGLGRCIWEGWTLESEALRRDMGTWLLACICICTCVCLGVSVTGEGQGPRSRTFTCLTNN
+     CCCHHHHCCCCCCCCCCCCCCCCHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCEEEEECC
+     654455445655544445788645666777877765578777889888888877898768
+
+>  61                                                             120
+     ILRIDCHWSAPELGQGSSPWLLFTSNQAPGGTHKCILRGSECTVVLPPEAVLVPSDNFTI
+     CEEEEEEECCCCCCCCCCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCEEEECCCEEE
+     857999986898888888667887557788876666788888765688756775787578
+
+> 121                                                             180
+     TFHHCMSGREQVSLVDPEYLPRRHVKLDPPSDLQSNISSGHCILTWSISPALEPMTTLLS
+     EEEEEEECCCCCCCCCCCECCCEEECCCCCCCEEEECCCCEEEEEECCCCCCCCCCCEEE
+     889987678887666765455434578898755787589869999778888876565689
+
+> 181                                                             240
+     YELAFKKQEEAWEQAQHRDHIVGVTWLILEAFELDPGFIHEARLRVQMATLEDDVVEEER
+     EEEEEECCCCCCCCCCCCCCCCCCCEEEECCCCCCCCCEEEEEEEECCCCCCCCCCCCCC
+     999986899876555555556788557756666789877999998767776666666667
+
+> 241                                                             300
+     YTGQWSEWSQPVCFQAPQRQGPLIPPWGWPGNTLVAVSIFLLLTGPTYLLFKLSPRVKRI
+     CCCCCCCCCCCCEEECCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     788777778754665788888877765435689999999999999999988766677765
+
+> 301                                                             360
+     FYQNVPSPAMFFQPLYSVHNGNFQTWMGAHGAGVLLSQDCAGTPQGALEPCVQEATALLT
+     HCCCCCCCCCCCCCCCCCCCCCCHHECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+     368888887777776557888743333788877666778888888888888888776556
+
+> 361                                                             420
+     CGPARPWKSVALEEEQEGPGTRLPGNLSSEDVLPAGCTEWRVQTLAYLPQEDWAPTSLTR
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+     788888888888888888888889998888888888888888888888888888888888
+
+> 421                                                             480
+     PAPPDSEGSRSSSSSSSSNNNNYCALGCYGGWHLSALPGNTQSSGPIPALACGLSCDHQG
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+     899999999899888889988876667788888778887776788888888888887777
+
+> 481                                          521
+     LETQQGVAWVLAGHCQRPGLHEDLQGMLLPSVLSKARSWTF
+     CCCCCCEEEEEECCCCCCCCHHHHHHCCCHHHHHHCCCCCC
+     55566568887556678775455665455555555545334
+END_SECTION
+
+SECTION_SS_PROBABILITIES
+Secondary structure prediction
+
+Output format is the following:
+1st line -> query sequence
+2nd line -> probability for helix
+3rd line -> probability for beta strand
+4rd line -> probability for coil
+
+>   1                                                                                                    25
+     M   G   L   G   R   C   I   W   E   G   W   T   L   E   S   E   A   L   R   R   D   M   G   T   W   
+H->  11  16  29  42  52  54  42  39  33  27  28  27  30  35  43  45  42  31  18  9   7   22  40  56  61  
+E->  23  26  24  23  23  11  15  17  12  10  13  18  18  15  11  9   9   9   7   7   8   12  12  20  27  
+C->  65  56  46  34  24  33  42  42  53  61  57  54  51  49  45  45  48  58  73  83  84  65  47  22  11  
+
+>  26                                                                                                    50
+     L   L   A   C   I   C   I   C   T   C   V   C   L   G   V   S   V   T   G   E   G   Q   G   P   R   
+H->  63  69  70  72  72  80  73  73  70  63  54  37  18  11  10  6   4   3   4   6   7   6   5   4   3   
+E->  27  23  21  20  20  13  17  14  12  12  12  11  8   7   10  16  17  11  9   3   4   5   7   9   8   
+C->  8   6   7   6   6   5   8   11  16  23  33  51  72  81  78  77  78  84  85  90  88  87  87  86  87  
+
+>  51                                                                                                    75
+     S   R   T   F   T   C   L   T   N   N   I   L   R   I   D   C   H   W   S   A   P   E   L   G   Q   
+H->  6   5   3   1   0   0   1   1   2   2   3   6   5   1   1   1   0   1   1   2   4   6   7   5   3   
+E->  6   7   17  75  89  92  80  71  35  10  16  51  78  91  92  92  92  82  33  13  5   4   4   5   8   
+C->  86  86  79  22  9   6   17  27  61  87  80  42  15  7   5   6   6   16  64  84  90  89  88  88  87  
+
+>  76                                                                                                   100
+     G   S   S   P   W   L   L   F   T   S   N   Q   A   P   G   G   T   H   K   C   I   L   R   G   S   
+H->  3   3   5   7   8   6   4   4   3   4   6   15  7   7   9   9   9   8   7   6   5   5   5   6   6   
+E->  9   11  11  30  61  78  83  82  75  58  42  13  15  9   7   9   14  22  29  29  24  16  9   6   6   
+C->  86  84  82  62  30  14  11  13  20  36  51  71  76  82  82  81  76  69  63  63  69  78  85  86  86  
+
+> 101                                                                                                   125
+     E   C   T   V   V   L   P   P   E   A   V   L   V   P   S   D   N   F   T   I   T   F   H   H   C   
+H->  5   4   4   4   4   3   3   5   5   3   2   2   2   2   3   2   2   2   3   2   3   3   2   1   1   
+E->  7   10  17  28  37  31  14  10  18  40  65  78  72  51  21  12  25  53  78  87  89  89  90  90  86  
+C->  86  84  78  66  58  65  81  84  75  55  31  19  24  45  75  84  71  43  18  9   6   6   7   7   11  
+
+> 126                                                                                                   150
+     M   S   G   R   E   Q   V   S   L   V   D   P   E   Y   L   P   R   R   H   V   K   L   D   P   P   
+H->  1   1   6   5   6   7   6   8   7   8   10  11  8   6   6   13  27  22  17  8   5   3   2   3   10  
+E->  79  65  17  11  9   11  16  27  27  23  18  22  38  48  42  31  29  38  48  52  20  10  10  5   8   
+C->  18  32  75  83  83  80  76  64  64  68  71  66  53  45  50  54  42  38  33  39  74  85  86  90  80  
+
+> 151                                                                                                   175
+     S   D   L   Q   S   N   I   S   S   G   H   C   I   L   T   W   S   I   S   P   A   L   E   P   M   
+H->  14  11  4   1   2   3   2   2   2   1   1   0   0   0   0   1   1   2   4   9   9   12  14  26  25  
+E->  12  29  56  75  80  76  43  14  5   13  66  93  96  96  92  76  27  12  7   5   6   7   10  13  15  
+C->  73  58  39  22  16  19  53  83  91  84  32  6   2   2   6   22  70  84  88  85  84  80  75  60  59  
+
+> 176                                                                                                   200
+     T   T   L   L   S   Y   E   L   A   F   K   K   Q   E   E   A   W   E   Q   A   Q   H   R   D   H   
+H->  17  8   3   1   1   0   0   0   0   0   1   1   2   5   8   10  14  16  17  17  16  18  20  21  17  
+E->  21  33  65  86  93  96  96  96  95  88  64  16  6   3   6   12  18  24  28  30  32  30  28  27  28  
+C->  60  57  30  11  5   2   2   3   3   10  34  82  91  90  85  77  66  58  53  51  50  50  51  50  54  
+
+> 201                                                                                                   225
+     I   V   G   V   T   W   L   I   L   E   A   F   E   L   D   P   G   F   I   H   E   A   R   L   R   
+H->  11  8   6   7   6   5   3   3   3   5   13  16  14  9   5   3   2   2   0   0   0   0   0   0   0   
+E->  27  15  11  12  35  59  73  75  58  32  20  20  22  17  8   5   9   22  78  94  97  97  97  95  86  
+C->  60  75  82  80  58  34  22  21  37  61  65  62  63  73  85  90  87  75  20  4   2   1   2   4   12  
+
+> 226                                                                                                   250
+     V   Q   M   A   T   L   E   D   D   V   V   E   E   E   R   Y   T   G   Q   W   S   E   W   S   Q   
+H->  1   3   10  18  18  27  29  28  25  21  20  21  21  17  13  9   5   4   4   9   17  13  10  9   14  
+E->  72  26  12  8   7   7   7   8   11  14  16  13  12  14  13  11  10  13  19  18  12  13  12  9   8   
+C->  25  69  77  73  73  65  63  63  63  63  63  64  66  68  72  78  83  82  76  72  70  73  76  81  76  
+
+> 251                                                                                                   275
+     P   V   C   F   Q   A   P   Q   R   Q   G   P   L   I   P   P   W   G   W   P   G   N   T   L   V   
+H->  26  17  9   4   3   3   3   6   8   8   9   7   8   9   10  13  18  25  37  50  67  84  91  94  95  
+E->  17  38  62  65  52  24  9   6   6   6   8   9   14  16  15  20  24  26  27  24  18  9   4   2   1   
+C->  56  43  28  29  44  71  86  86  85  84  82  82  77  73  73  65  57  47  35  25  13  5   3   3   3   
+
+> 276                                                                                                   300
+     A   V   S   I   F   L   L   L   T   G   P   T   Y   L   L   F   K   L   S   P   R   V   K   R   I   
+H->  96  97  97  97  98  98  98  98  97  96  95  94  92  90  88  84  73  65  64  68  71  71  70  65  55  
+E->  0   0   0   0   0   0   0   0   0   0   0   1   2   3   3   2   2   3   3   4   6   9   12  16  19  
+C->  2   2   1   1   1   1   1   1   2   2   3   4   4   6   8   12  23  31  31  27  21  18  16  17  24  
+
+> 301                                                                                                   325
+     F   Y   Q   N   V   P   S   P   A   M   F   F   Q   P   L   Y   S   V   H   N   G   N   F   Q   T   
+H->  39  20  8   7   5   4   4   9   18  21  19  15  17  20  21  18  14  11  8   7   6   10  32  36  37  
+E->  21  18  10  10  9   8   6   4   3   3   4   4   5   8   18  30  29  17  9   5   6   13  23  29  33  
+C->  39  61  80  81  84  86  88  86  78  74  76  79  77  71  60  51  56  70  82  86  86  76  44  34  29  
+
+> 326                                                                                                   350
+     W   M   G   A   H   G   A   G   V   L   L   S   Q   D   C   A   G   T   P   Q   G   A   L   E   P   
+H->  31  24  8   7   7   10  9   9   9   9   8   9   12  7   5   5   9   9   6   7   8   9   7   6   8   
+E->  36  37  17  8   6   8   10  16  24  26  22  14  10  9   8   9   10  9   10  10  9   10  7   5   7   
+C->  31  38  74  84  86  81  79  73  65  63  68  76  77  83  85  84  80  81  82  81  81  80  85  87  84  
+
+> 351                                                                                                   375
+     C   V   Q   E   A   T   A   L   L   T   C   G   P   A   R   P   W   K   S   V   A   L   E   E   E   
+H->  8   11  13  14  16  23  30  34  31  25  14  7   8   9   9   9   10  9   9   7   5   5   6   8   8   
+E->  8   6   4   3   4   5   8   9   9   10  9   6   4   4   5   5   5   4   4   5   6   6   5   4   3   
+C->  83  81  82  81  79  71  60  56  58  63  75  86  87  85  85  85  84  85  86  87  88  88  88  87  87  
+
+> 376                                                                                                   400
+     Q   E   G   P   G   T   R   L   P   G   N   L   S   S   E   D   V   L   P   A   G   C   T   E   W   
+H->  9   7   5   5   6   6   5   4   5   5   5   5   6   9   10  8   6   6   8   7   5   4   6   9   8   
+E->  3   4   5   6   5   5   5   5   4   4   4   5   5   4   5   7   8   6   5   6   7   7   6   6   8   
+C->  87  87  88  87  87  87  88  89  90  90  89  89  87  85  83  83  85  86  86  86  86  87  87  84  82  
+
+> 401                                                                                                   425
+     R   V   Q   T   L   A   Y   L   P   Q   E   D   W   A   P   T   S   L   T   R   P   A   P   P   D   
+H->  7   8   9   9   12  14  12  7   5   6   7   6   5   4   6   7   8   7   6   4   3   3   3   4   4   
+E->  11  10  7   5   4   5   7   8   6   4   3   4   6   6   4   4   3   4   4   5   6   6   4   3   2   
+C->  80  80  82  84  82  80  80  84  87  88  88  88  88  89  88  87  87  87  88  89  89  90  91  92  92  
+
+> 426                                                                                                   450
+     S   E   G   S   R   S   S   S   S   S   S   S   S   N   N   N   N   Y   C   A   L   G   C   Y   G   
+H->  5   3   3   4   5   5   5   5   4   4   6   7   3   4   6   7   7   10  13  14  11  7   7   6   5   
+E->  3   5   5   5   5   4   4   5   6   8   7   6   5   5   4   5   8   14  17  19  19  16  12  9   6   
+C->  91  90  90  90  89  90  90  89  89  87  85  85  90  90  89  87  83  75  69  66  69  75  79  84  87  
+
+> 451                                                                                                   475
+     G   W   H   L   S   A   L   P   G   N   T   Q   S   S   G   P   I   P   A   L   A   C   G   L   S   
+H->  6   8   10  10  9   7   7   12  15  16  14  13  11  7   4   2   2   5   7   6   7   7   5   3   2   
+E->  6   7   8   10  11  10  7   4   5   8   14  17  13  10  11  14  13  9   7   6   5   7   11  12  8   
+C->  86  83  80  78  79  81  84  82  78  74  70  69  75  81  84  82  83  84  85  87  86  85  83  83  89  
+
+> 476                                                                                                   500
+     C   D   H   Q   G   L   E   T   Q   Q   G   V   A   W   V   L   A   G   H   C   Q   R   P   G   L   
+H->  8   19  13  11  10  15  12  12  12  9   5   3   2   2   3   3   3   5   8   9   7   8   12  20  34  
+E->  4   3   15  16  19  33  35  27  21  23  39  64  83  89  86  79  57  37  31  27  15  8   7   9   8   
+C->  86  76  70  71  70  51  51  59  65  67  55  32  13  7   10  17  38  56  60  63  77  82  79  70  56  
+
+> 501                                                                                                   521
+     H   E   D   L   Q   G   M   L   L   P   S   V   L   S   K   A   R   S   W   T   F   
+H->  46  55  59  62  60  55  44  38  41  53  56  56  58  57  53  41  48  36  37  33  34  
+E->  7   6   6   5   5   5   8   9   5   2   2   3   4   4   5   5   8   13  22  28  24  
+C->  45  38  34  31  34  38  46  51  52  43  41  39  37  37  40  52  42  50  39  38  41  
+
+END_SECTION
+SECTION_SA
+
+Relative solvent accessibility prediction
+0 -> fully Buried
+9 -> fully Exposed
+3rd line -> confidence level (scale from 0 to 9, corresponding to p=0.0 or low confidence and p=0.9 or high confidence, respectively)
+
+>   1                                                              60
+     MGLGRCIWEGWTLESEALRRDMGTWLLACICICTCVCLGVSVTGEGQGPRSRTFTCLTNN
+     441340022133134433433021000000000000012231445563454540301133
+     336458633354753534343737973872989786652536445243544458787664
+>  61                                                             120
+     ILRIDCHWSAPELGQGSSPWLLFTSNQAPGGTHKCILRGSECTVVLPPEAVLVPSDNFTI
+     232020103235534231211011234245543323244341322133412113342111
+     735948676643534343466777444443454344443545344533464764334556
+> 121                                                             180
+     TFHHCMSGREQVSLVDPEYLPRRHVKLDPPSDLQSNISSGHCILTWSISPALEPMTTLLS
+     101101314443322333121342031411430313244320102032233223131102
+     675655535344433534745455857566347657653368897864373343546897
+> 181                                                             240
+     YELAFKKQEEAWEQAQHRDHIVGVTWLILEAFELDPGFIHEARLRVQMATLEDDVVEEER
+     010202455541341432532333331103223134312010101022333343223433
+     989588443435445444343435447484444654466789687944434333333333
+> 241                                                             300
+     YTGQWSEWSQPVCFQAPQRQGPLIPPWGWPGNTLVAVSIFLLLTGPTYLLFKLSPRVKRI
+     241201410331213135444322221110000000000000000000001122320231
+     333667565637685654433434434352221222222242622464996665559457
+> 301                                                             360
+     FYQNVPSPAMFFQPLYSVHNGNFQTWMGAHGAGVLLSQDCAGTPQGALEPCVQEATALLT
+     012312314541541233453414312335422121223223233233333255343434
+     976587663435457434433564474353353536333342534344534444433433
+> 361                                                             420
+     CGPARPWKSVALEEEQEGPGTRLPGNLSSEDVLPAGCTEWRVQTLAYLPQEDWAPTSLTR
+     434543544352545453344535544434423342243331443442244442354454
+     324343333333334343424332343333333423543334423334333334333323
+> 421                                                             480
+     PAPPDSEGSRSSSSSSSSNNNNYCALGCYGGWHLSALPGNTQSSGPIPALACGLSCDHQG
+     434564534444533343444321423252332132134325353123443451435343
+     354433324434232223432344343443453333633434333453343427533443
+> 481                                                             521
+     LETQQGVAWVLAGHCQRPGLHEDLQGMLLPSVLSKARSWTF
+     14445300010224143441353143211321134234233
+     74332375657435524115443533556335533443633
+END_SECTION
+
+SECTION_SA_ABSOLUTE
+>    1                                                                                                                                                      25
+     M     G     L     G     R     C     I     W     E     G     W     T     L     E     S     E     A     L     R     R     D     M     G     T     W     
+     79.5  32.2  28.9  27.0  94.5  9.4   14.0  61.2  39.9  13.5  76.5  50.4  20.4  64.6  48.3  85.5  35.6  57.8  103.5 72.0  48.0  11.1  18.8  15.4  12.8  
+
+>    26                                                                                                                                                      50
+     L     L     A     C     I     C     I     C     T     C     V     C     L     G     V     S     V     T     G     E     G     Q     G     P     R     
+     15.3  8.5   6.9   5.4   10.5  6.8   7.0   5.4   11.2  8.1   10.8  12.2  22.1  20.2  34.1  39.1  18.6  56.0  32.2  98.8  44.2  108.0 29.2  58.0  119.2 
+
+>    51                                                                                                                                                      75
+     S     R     T     F     T     C     L     T     N     N     I     L     R     I     D     C     H     W     S     A     P     E     L     G     Q     
+     46.0  121.5 58.8  12.6  51.8  6.8   27.2  23.8  51.2  48.0  36.8  52.7  49.5  7.0   31.5  6.8   37.0  20.4  36.8  31.1  53.6  95.0  86.7  28.5  82.8  
+
+>    76                                                                                                                                                      100
+     G     S     S     P     W     L     L     F     T     S     N     Q     A     P     G     G     T     H     K     C     I     L     R     G     S     
+     15.0  34.5  21.9  33.4  30.6  25.5  13.6  23.1  21.0  26.4  49.6  84.6  32.2  69.6  41.2  37.5  64.4  72.2  78.0  32.4  57.8  42.5  103.5 32.2  44.9  
+
+>    101                                                                                                                                                      125
+     E     C     T     V     V     L     P     P     E     A     V     L     V     P     S     D     N     F     T     I     T     F     H     H     C     
+     93.1  24.3  49.0  40.3  35.6  25.5  45.0  55.1  87.4  19.6  31.0  25.5  15.5  47.9  39.1  61.5  41.6  39.9  25.2  19.2  19.6  14.7  37.0  25.4  10.8  
+
+>    126                                                                                                                                                      150
+     M     S     G     R     E     Q     V     S     L     V     D     P     E     Y     L     P     R     R     H     V     K     L     D     P     P     
+     22.2  40.2  12.0  90.0  79.8  77.4  46.5  41.4  49.3  34.1  54.0  55.1  68.4  39.1  49.3  24.6  67.5  94.5  39.0  12.4  74.0  25.5  60.0  23.2  24.6  
+
+>    151                                                                                                                                                      175
+     S     D     L     Q     S     N     I     S     S     G     H     C     I     L     T     W     S     I     S     P     A     L     E     P     M     
+     46.0  49.5  11.9  64.8  12.7  60.8  43.8  55.2  54.0  28.5  54.6  6.8   31.5  6.8   37.8  22.9  42.5  49.0  24.1  47.9  39.1  47.6  49.4  45.0  33.3  
+
+>    176                                                                                                                                                      200
+     T     T     L     L     S     Y     E     L     A     F     K     K     Q     E     E     A     W     E     Q     A     Q     H     R     D     H     
+     42.0  26.6  18.7  5.1   25.3  13.8  20.9  8.5   26.4  14.7  52.0  94.0  97.2  106.4 95.0  51.8  48.5  64.6  79.2  19.6  72.0  68.2  56.2  75.0  70.2  
+
+>    201                                                                                                                                                      225
+     I     V     G     V     T     W     L     I     L     E     A     F     E     L     D     P     G     F     I     H     E     A     R     L     R     
+     38.5  54.2  29.2  48.0  42.0  76.5  18.7  31.5  13.6  62.7  27.6  58.8  74.1  18.7  54.0  66.7  25.5  37.8  43.8  9.8   20.9  2.3   24.8  5.1   22.5  
+
+>    226                                                                                                                                                      250
+     V     Q     M     A     T     L     E     D     D     V     V     E     E     E     R     Y     T     G     Q     W     S     E     W     S     Q     
+     6.2   46.8  42.5  36.8  49.0  51.0  62.7  60.0  58.5  31.0  31.0  72.2  76.0  72.2  78.8  59.8  68.6  14.2  43.2  22.9  12.7  77.9  25.5  10.3  54.0  
+
+>    251                                                                                                                                                      275
+     P     V     C     F     Q     A     P     Q     R     Q     G     P     L     I     P     P     W     G     W     P     G     N     T     L     V     
+     43.5  21.7  27.0  23.1  64.8  20.7  56.5  93.6  105.8 84.6  30.8  56.5  44.2  35.0  31.9  34.8  48.5  10.5  25.5  10.2  6.0   9.6   5.6   6.8   6.2   
+
+>    276                                                                                                                                                      300
+     A     V     S     I     F     L     L     L     T     G     P     T     Y     L     L     F     K     L     S     P     R     V     K     R     I     
+     5.8   7.8   4.6   7.0   8.4   6.8   6.8   6.8   5.6   3.0   7.2   7.0   11.5  6.8   8.5   27.3  32.0  34.0  24.1  56.5  58.5  7.8   46.0  74.2  31.5  
+
+>    301                                                                                                                                                      325
+     F     Y     Q     N     V     P     S     P     A     M     F     F     Q     P     L     Y     S     V     H     N     G     N     F     Q     T     
+     14.7  29.9  36.0  48.0  17.1  29.0  44.9  27.6  55.2  94.3  94.5  37.8  90.0  62.4  23.8  46.0  44.9  48.0  87.8  86.4  27.0  65.6  21.0  73.8  46.2  
+
+>    326                                                                                                                                                      350
+     W     M     G     A     H     G     A     G     V     L     L     S     Q     D     C     A     G     T     P     Q     G     A     L     E     P     
+     30.6  44.4  27.8  39.1  97.5  30.0  32.2  21.8  26.4  45.9  22.1  33.4  50.4  57.0  32.4  28.8  29.2  30.8  46.4  57.6  20.2  34.5  62.9  70.3  49.3  
+
+>    351                                                                                                                                                      375
+     C     V     Q     E     A     T     A     L     L     T     C     G     P     A     R     P     W     K     S     V     A     L     E     E     E     
+     51.3  40.3  91.8  102.6 44.9  57.4  39.1  69.7  52.7  68.6  56.7  24.8  65.2  64.4  99.0  45.0  127.5 94.0  55.2  57.4  59.8  42.5  98.8  79.8  108.3 
+
+>    376                                                                                                                                                      400
+     Q     E     G     P     G     T     R     L     P     G     N     L     S     S     E     D     V     L     P     A     G     C     T     E     W     
+     88.2  100.7 28.5  56.5  36.0  58.8  119.2 61.2  72.5  41.2  78.4  74.8  51.8  44.9  91.2  66.0  34.1  66.3  55.1  50.6  21.0  27.0  56.0  74.1  79.0  
+
+>    401                                                                                                                                                      425
+     R     V     Q     T     L     A     Y     L     P     Q     E     D     W     A     P     T     S     L     T     R     P     A     P     P     D     
+     74.2  23.2  72.0  60.2  56.1  46.0  108.1 40.8  37.7  81.0  91.2  63.0  112.2 31.1  56.5  75.6  54.0  71.4  78.4  94.5  69.6  41.4  62.4  82.7  90.0  
+
+>    426                                                                                                                                                      450
+     S     E     G     S     R     S     S     S     S     S     S     S     S     N     N     N     N     Y     C     A     L     G     C     Y     G     
+     48.3  100.7 25.5  50.6  110.2 47.1  47.1  58.6  34.5  36.8  34.5  56.4  44.9  72.0  72.0  73.6  57.6  50.6  25.6  46.0  35.7  22.5  33.8  115.0 18.8  
+
+>    451                                                                                                                                                      475
+     G     W     H     L     S     A     L     P     G     N     T     Q     S     S     G     P     I     P     A     L     A     C     G     L     S     
+     26.2  89.2  52.6  32.3  36.8  23.0  28.9  55.1  34.5  56.0  33.6  90.0  43.7  61.0  27.8  26.1  42.0  45.0  49.5  79.9  34.5  64.8  37.5  20.4  46.0  
+
+>    476                                                                                                                                                      500
+     C     D     H     Q     G     L     E     T     Q     Q     G     V     A     W     V     L     A     G     H     C     Q     R     P     G     L     
+     41.9  82.5  74.1  84.6  24.0  18.7  87.4  60.2  75.6  95.4  24.8  9.3   9.2   17.9  15.5  11.9  25.3  15.8  85.8  20.2  88.2  87.8  58.0  33.8  32.3  
+
+>    501                                                                                                                                                      521
+     H     E     D     L     Q     G     M     L     L     P     S     V     L     S     K     A     R     S     W     T     F     
+     66.3  95.0  45.0  23.8  81.0  28.5  40.7  25.5  23.8  47.9  33.4  24.8  30.6  43.7  86.0  23.0  85.5  46.0  56.1  54.6  81.9  
+
+END_SECTION
+
+SECTION_ENTROPY
+
+>   1                                                                                                      25
+          M   G   L   G   R   C   I   W   E   G   W   T   L   E   S   E   A   L   R   R   D   M   G   T   W   
+ENTROPY-> 1.0 0.0 0.0 0.2 0.2 0.0 0.2 0.2 0.2 0.0 0.3 0.4 0.2 0.3 0.3 0.3 0.5 0.6 0.3 0.3 0.2 0.2 0.5 0.5 0.3 
+
+>  26                                                                                                      50
+          L   L   A   C   I   C   I   C   T   C   V   C   L   G   V   S   V   T   G   E   G   Q   G   P   R   
+ENTROPY-> 0.6 0.4 0.8 0.6 0.7 0.6 0.6 0.5 0.7 0.8 0.6 0.7 0.8 0.8 0.9 0.8 0.7 0.8 0.7 0.8 0.8 0.8 0.7 0.8 0.6 
+
+>  51                                                                                                      75
+          S   R   T   F   T   C   L   T   N   N   I   L   R   I   D   C   H   W   S   A   P   E   L   G   Q   
+ENTROPY-> 0.9 0.8 0.8 0.5 0.7 0.1 0.7 0.8 0.9 0.7 0.8 0.7 0.8 0.6 0.8 0.1 0.8 0.1 0.8 0.8 0.7 0.8 0.8 0.8 0.9 
+
+>  76                                                                                                     100
+          G   S   S   P   W   L   L   F   T   S   N   Q   A   P   G   G   T   H   K   C   I   L   R   G   S   
+ENTROPY-> 0.9 0.8 0.8 0.8 0.8 0.8 0.7 0.8 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 1.0 0.9 0.7 0.9 0.9 0.9 0.9 0.9 
+
+> 101                                                                                                     125
+          E   C   T   V   V   L   P   P   E   A   V   L   V   P   S   D   N   F   T   I   T   F   H   H   C   
+ENTROPY-> 0.8 0.8 0.9 0.9 0.9 0.9 0.8 0.9 0.9 0.9 0.8 0.9 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.8 0.9 0.9 0.9 0.9 0.9 
+
+> 126                                                                                                     150
+          M   S   G   R   E   Q   V   S   L   V   D   P   E   Y   L   P   R   R   H   V   K   L   D   P   P   
+ENTROPY-> 0.8 0.9 0.8 0.8 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.8 0.7 0.9 0.8 0.9 0.8 0.8 0.5 0.6 0.5 0.8 0.4 0.1 
+
+> 151                                                                                                     175
+          S   D   L   Q   S   N   I   S   S   G   H   C   I   L   T   W   S   I   S   P   A   L   E   P   M   
+ENTROPY-> 0.9 0.7 0.5 0.8 0.7 0.8 0.9 0.8 0.9 0.8 0.9 0.6 0.9 0.5 0.8 0.1 0.8 0.9 0.5 0.8 0.8 0.9 0.9 0.9 0.9 
+
+> 176                                                                                                     200
+          T   T   L   L   S   Y   E   L   A   F   K   K   Q   E   E   A   W   E   Q   A   Q   H   R   D   H   
+ENTROPY-> 0.9 0.9 0.9 0.5 0.8 0.4 0.6 0.5 0.7 0.5 0.6 0.8 0.9 0.8 0.8 0.8 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 
+
+> 201                                                                                                     225
+          I   V   G   V   T   W   L   I   L   E   A   F   E   L   D   P   G   F   I   H   E   A   R   L   R   
+ENTROPY-> 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.7 0.9 0.9 0.9 0.9 0.6 0.9 0.7 0.8 0.8 0.8 0.4 0.8 0.5 0.5 0.5 0.3 
+
+> 226                                                                                                     250
+          V   Q   M   A   T   L   E   D   D   V   V   E   E   E   R   Y   T   G   Q   W   S   E   W   S   Q   
+ENTROPY-> 0.7 0.7 0.9 0.9 0.9 1.0 0.9 0.9 1.0 1.0 1.0 1.0 0.9 0.9 0.9 0.9 0.9 0.6 0.9 0.4 0.2 0.6 0.2 0.2 0.7 
+
+> 251                                                                                                     275
+          P   V   C   F   Q   A   P   Q   R   Q   G   P   L   I   P   P   W   G   W   P   G   N   T   L   V   
+ENTROPY-> 0.6 0.8 0.9 0.7 0.8 0.8 0.7 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.8 0.9 0.9 0.8 0.8 0.9 0.9 0.8 0.7 0.7 
+
+> 276                                                                                                     300
+          A   V   S   I   F   L   L   L   T   G   P   T   Y   L   L   F   K   L   S   P   R   V   K   R   I   
+ENTROPY-> 0.7 0.7 0.7 0.7 0.8 0.7 0.6 0.6 0.6 0.8 0.8 0.8 0.8 0.7 0.7 0.9 0.9 0.9 0.9 0.9 0.7 0.6 0.6 0.9 0.8 
+
+> 301                                                                                                     325
+          F   Y   Q   N   V   P   S   P   A   M   F   F   Q   P   L   Y   S   V   H   N   G   N   F   Q   T   
+ENTROPY-> 0.6 0.7 0.4 0.7 0.4 0.1 0.7 0.2 0.7 0.7 0.8 0.7 0.8 0.7 0.7 0.8 0.8 0.8 0.8 0.7 0.5 0.5 0.6 0.7 0.7 
+
+> 326                                                                                                     350
+          W   M   G   A   H   G   A   G   V   L   L   S   Q   D   C   A   G   T   P   Q   G   A   L   E   P   
+ENTROPY-> 0.6 0.8 0.9 0.9 0.9 0.9 0.7 0.9 0.9 0.9 0.8 0.9 0.8 0.8 0.9 0.9 0.9 0.9 0.8 0.8 0.8 0.9 0.8 0.8 0.7 
+
+> 351                                                                                                     375
+          C   V   Q   E   A   T   A   L   L   T   C   G   P   A   R   P   W   K   S   V   A   L   E   E   E   
+ENTROPY-> 0.9 0.8 0.8 0.7 0.8 0.9 0.8 0.8 0.8 0.8 0.9 0.9 0.7 0.8 0.9 0.7 0.9 0.9 0.8 0.8 0.9 0.8 0.8 0.9 0.7 
+
+> 376                                                                                                     400
+          Q   E   G   P   G   T   R   L   P   G   N   L   S   S   E   D   V   L   P   A   G   C   T   E   W   
+ENTROPY-> 0.9 0.8 0.8 0.8 0.8 0.9 0.8 0.8 0.8 0.8 0.8 0.8 0.9 0.8 0.8 0.9 0.9 0.8 0.8 0.8 0.8 0.9 0.8 0.8 0.9 
+
+> 401                                                                                                     425
+          R   V   Q   T   L   A   Y   L   P   Q   E   D   W   A   P   T   S   L   T   R   P   A   P   P   D   
+ENTROPY-> 0.9 0.8 0.8 0.8 0.8 0.9 0.9 0.8 0.5 0.8 0.8 0.9 0.9 0.8 0.7 0.8 0.8 0.8 0.9 0.9 0.6 0.7 0.7 0.7 0.8 
+
+> 426                                                                                                     450
+          S   E   G   S   R   S   S   S   S   S   S   S   S   N   N   N   N   Y   C   A   L   G   C   Y   G   
+ENTROPY-> 0.8 0.8 0.7 0.7 0.9 0.8 0.8 0.7 0.8 0.7 0.6 0.8 0.7 0.8 0.8 0.8 0.9 0.8 0.8 0.8 0.8 0.8 0.7 0.8 0.5 
+
+> 451                                                                                                     475
+          G   W   H   L   S   A   L   P   G   N   T   Q   S   S   G   P   I   P   A   L   A   C   G   L   S   
+ENTROPY-> 0.7 0.8 0.9 0.8 0.7 0.7 0.7 0.6 0.8 0.7 0.6 0.7 0.7 0.6 0.8 0.5 0.7 0.5 0.7 0.7 0.6 0.7 0.6 0.2 0.5 
+
+> 476                                                                                                     500
+          C   D   H   Q   G   L   E   T   Q   Q   G   V   A   W   V   L   A   G   H   C   Q   R   P   G   L   
+ENTROPY-> 0.3 0.5 0.5 0.3 0.5 0.2 0.6 0.6 0.5 0.6 0.5 0.2 0.4 0.0 0.2 0.2 0.2 0.0 0.2 0.0 1.0 1.0 1.0 1.0 1.0 
+
+> 501                                                                                                     521
+          H   E   D   L   Q   G   M   L   L   P   S   V   L   S   K   A   R   S   W   T   F   
+ENTROPY-> 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 
+
+END_SECTION
